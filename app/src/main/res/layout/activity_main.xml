@@ -1,10 +1,10 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="#ffdfeaf1">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/background">
 
     <TextView android:text="@string/my_title" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,7 +22,8 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="63dp"
-        android:background="#ffffd33b" />
+        android:background="@color/orange"
+        android:onClick="displayToast"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -31,9 +32,9 @@
         android:id="@+id/btn_scores"
         android:width="450px"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/btn_spotify"
         android:layout_centerHorizontal="true"
-        android:background="#ffffd33b" />
+        android:background="@color/orange"
+        android:onClick="displayToast"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -42,9 +43,9 @@
         android:id="@+id/btn_library"
         android:width="450px"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/btn_scores"
         android:layout_centerHorizontal="true"
-        android:background="#ffffd33b" />
+        android:background="@color/orange"
+        android:onClick="displayToast"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -53,9 +54,9 @@
         android:id="@+id/btn_build_bigger"
         android:width="450px"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/btn_library"
         android:layout_centerHorizontal="true"
-        android:background="#ffffd33b" />
+        android:background="@color/orange"
+        android:onClick="displayToast"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -64,9 +65,9 @@
         android:id="@+id/btn_xyz_reader"
         android:width="450px"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/btn_build_bigger"
         android:layout_centerHorizontal="true"
-        android:background="#ffffd33b" />
+        android:background="@color/orange"
+        android:onClick="displayToast"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -75,9 +76,9 @@
         android:id="@+id/btn_capstone"
         android:width="450px"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/btn_xyz_reader"
         android:layout_centerHorizontal="true"
-        android:background="#ffff375f"
-        android:textColor="@android:color/white" />
+        android:background="@color/red"
+        android:textColor="@android:color/white"
+        android:onClick="displayToast"/>
 
-</RelativeLayout>
+</LinearLayout>

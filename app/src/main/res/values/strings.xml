@@ -8,4 +8,6 @@
     <string name="ant_terminator">BUILD IT BIGGER</string>
     <string name="materialize">XYZ READER</string>
     <string name="capstone">CAPSTONE:MY OWN APP</string>
+    <string name="open_app">Opens the app: </string>
+
 </resources>
