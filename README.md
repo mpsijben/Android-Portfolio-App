@@ -1,2 +1,2 @@
 # AndroidAllprojects
-An Android application that open my other apps
+A basic android application that opens other android applications.
